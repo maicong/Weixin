@@ -1,0 +1,94 @@
+
+/* Common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-size:14px;line-height:1.25em}
+body.s,.s input,.s textarea,.s select,.s button,.s table{font-family:Helvetica}
+body{position:relative;-webkit-text-size-adjust:none}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{color:#000;text-decoration:none}
+table{border-collapse:collapse}
+.hc{visibility:hidden;overflow:hidden;position:absolute;left:-999px;width:0;height:0;font-size:0;line-height:0}
+.ct{clear:both;width:100%;background-color:#fff}
+.ct:after{display:block;clear:both;height:1px;margin-top:-1px;content:''}
+
+/* Weixin */
+.tit{height:34px;border-bottom:1px solid #c2c2c2;background:-webkit-gradient(linear,0 0,0 100%,from(#fff),to(#f4f4f4));background:-moz-linear-gradient(top, #fff, #f4f4f4);background:-o-linear-gradient(top, #fff, #f4f4f4);line-height:34px;font-size:14px;font-weight:normal;text-align:center}
+.tab{height:28px;margin-top:17px;padding:4px 10px 0;border-bottom:1px solid #d9d9d9;background:-webkit-gradient(linear,0 0,0 100%,from(#f6f6f6),to(#efefef));background:-moz-linear-gradient(top, #f6f6f6, #efefef);background:-o-linear-gradient(top, #f6f6f6, #efefef);font-size:13px}
+.tab_v{height:38px;line-height:15px}
+.tab li{float:left;width:50%}
+.wid3 li{float:left;width:33%}
+.tab .on{background:-webkit-gradient(linear,0 0,0 100%,from(#e9e9e9),to(#f8f8f8));background:-moz-linear-gradient(top, #e9e9e9, #f8f8f8);background:-o-linear-gradient(top, #e9e9e9, #f8f8f8)}
+.tab .tab_link{display:block;height:28px;color:#163ab2}
+.tab_v .tab_link{height:38px}
+.tab .on .tab_link{border:solid #d9d9d9;border-width:1px 1px 0;color:#000}
+.tab .tab_txt{display:block;height:23px;padding-top:6px;text-align:center}
+.tab .on .tab_txt{padding-top:4px}
+.tab .on .tab_txt{border-color:#fff;border-style:solid;border-width:1px 1px 0}
+.tb{font-size:13px;padding-bottom:58px}
+.tb li{display:block;position:relative;height:42px;padding-left:13px;border-bottom:1px solid #efefef;line-height:42px}
+.tb .tb_tit{overflow:hidden;height:30px;padding-top:4px;border-bottom:none;background-color:#f8f8f8;line-height:30px}
+.tb .tb_num{position:absolute;top:0;right:0;width:76px;padding-left:3px;font-size:12px}
+.tb .tb_tit .tb_num{width:79px}
+.tb_time{float:left;width:62px}
+.tb .on{background-color:#f1f1f1}
+.more{position:fixed;bottom:0;width:100%;border-width:1px 0;border-style:solid;border-color:#e5e5e5}
+.more a{display:block;padding:8px 0 5px;border-width:1px 0;border-style:solid;border-color:#fff;background-color:#e5e5e5;font-size:12px;color:#163ab2;text-align:center}
+.more img{margin-left:4px;vertical-align:-2px}
+.hp_area{overflow:hidden;padding-bottom:58px}
+.hp_area2{border-top:1px solid #efefef;padding-bottom:58px}
+.hp_lst{display:block;position:relative;border-bottom:1px solid #efefef}
+.hp_lst a{display:block;padding:17px 10px 0}
+.hp_area2 .hp_lst a{padding:7px 20px}
+.hp_area2 .on a{padding-bottom:0}
+.hp_lst .line{height:55px;border-bottom:1px solid #efefef}
+.hp_area .ico,.hp_area .ico2,.hp_area2 .ico,.hp_area2 .ico2{position:absolute;top:40px;right:10px;width:14px;height:11px;background:url(../images/ico_hp.gif) 0 0 no-repeat;background-size:14px 27px}
+.hp_area2 .ico,.hp_area2 .ico2{top:22px;right:22px}
+.hp_area .ico2,.hp_area2 .ico2{background-position:0 -17px}
+.hp_tit{display:block;padding-bottom:9px;font-size:15px}
+.hp_area2 .hp_tit{padding-bottom:1px;color:#163ab2}
+.hp_txt{font-size:12px;color:#999}
+.hp_area .on .line{height:auto}
+.lst_info{display:none;padding:9px 0 13px 32px;font-size:12px;line-height:20px}
+.hp_area2 .lst_info{margin:6px -20px 0;padding:9px 0 9px 20px;border-top:1px solid #efefef;background-color:#f5f5f5;line-height:24px}
+.hp_area .on .lst_info,.hp_area2 .on .lst_info{display:block}
+.tb_v li{height:auto;padding:11px 13px;line-height:20px}
+.tb_date{height:10px}
+.tb_tit2{display:block;overflow:hidden;text-align:justify;text-justify:inter-ideograph}
+.tit2{height:33px;padding-left:20px;border-bottom:1px solid #fff;background-color:#f0f0f0;line-height:35px;font-weight:normal;font-size:15px;color:#484848}
+.tit2_v1{text-align:center}
+.tb_v2{border-top:1px solid #efefef}
+.tb_v2 li{height:auto;padding:3px 13px 2px 20px;line-height:20px;color:#666}
+
+.stock{padding-bottom:40px}
+.stock h1{padding:19px 0 9px 61px;background-color:#f5f5f5}
+.stock_tit{display:block;padding-bottom:15px;font-size:16px;font-family:'黑体';color:#484848}
+.stock_num{font-size:35px}
+.stock_num2{font-family:'黑体';font-size:16px;color:#ff0014;vertical-align:2px}
+.stock_num2 img{margin-right:3px}
+.stock_num2 span{font-size:14px}
+.stock_info{display:block;overflow:hidden;margin:9px 0 0 63px;font-family:'黑体';line-height:19px}
+.stock .up{color:#ff0014}
+.stock .down{color:#090}
+.stock_info td{width:116px}
+.img_stock{display:block;margin:20px 0 30px;padding-left:63px}
+
+.bank{padding-bottom:58px}
+.limit{display:block;overflow:hidden;margin:15px 0 21px}
+.limit li{float:left;width:50%;padding:15px 0 11px;text-align:center}
+.limit li:first-child{margin-right:-1px;border-right:1px solid #e5e4e4}
+.limit .limit_tit{font-size:15px;color:#484848}
+.limit .limit_info{display:block;overflow:hidden;padding-top:20px}
+.limit .limit_info img{padding-top:3px}
+.limit .limit_and{padding:0 8px;font-size:16px;color:#999}
+.limit .limit_num{display:inline-block;width:42px;height:59px;border-radius:3px;background-color:#68a9e8;font-size:50px;font-weight:bold;line-height:59px;color:#fff}
+.limit_week{display:block;overflow:hidden;width:280px;margin:0 auto;padding:0 20px}
+.limit_week li{float:left;padding:0 7px;border-right:1px solid #e5e4e4;font-size:13px}
+.limit_week li:first-child{padding-left:0}
+.limit_week li:last-child{padding-right:0;border-right:0}
+.limit_txt{margin:10px 18px 7px;font-size:10px;line-height:14px;color:#b9b9b9}
+.limit_btn_area{overflow:hidden;margin:0 18px;border-top:1px solid #f1f0f0}
+.limit_btn{overflow:hidden;padding-top:8px;font-size:13px; text-align:center}
+.limit_btn a{display:inline-block;height:14px;padding:5px 25px 5px 5px;background:url(../images/ico_limit_btn.gif) 100% 5px no-repeat;background-size:19px 14px;line-height:14px;color:#163ab2}
+.limit_btn a:first-child{border-right:1px solid #f0efef}

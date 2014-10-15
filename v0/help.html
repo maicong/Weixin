@@ -1,0 +1,185 @@
+<!Doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+<title>帮助</title>
+<link href="help/list.css" rel="stylesheet" type="text/css">
+<link href="help/weixin.css" rel="stylesheet" type="text/css">
+<script src="help/zepto.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="ct">
+	<h1 class="tit2 tit2_v1">帮助页面</h1>
+	<ul class="hp_area2">
+		<li id="item1" class="hp_lst"> <a onClick="switcher(1)"> <span class="hp_tit">智能对话</span> <span class="hp_txt">可以和搜狗助手进行智能对话。</span> <span id="icon1" class="ico"></span>
+			<ul class="lst_info">
+				<li>“三国杀内奸怎么玩”</li>
+				<li>“手机进水了怎么办”</li>
+				<li>“讲个笑话”</li>
+				<li>“说一个冷笑话”</li>
+				<li>“再讲一个 ”</li>
+			</ul>
+			</a> </li>
+		<li id="item2" class="hp_lst"> <a onClick="switcher(2)"> <span class="hp_tit">播放音乐</span> <span class="hp_txt">支持语音查询和播放在线音乐。</span> <span id="icon2" class="ico"></span>
+			<ul class="lst_info">
+				<li>“播放最炫民族风”</li>
+				<li>“来首莫文蔚的歌”</li>
+				<li>“我想听摇滚”</li>
+				<li>“播放郭德纲的相声”</li>
+				<li>“播放音乐”</li>
+			</ul>
+			</a> </li>
+		<li id="item3" class="hp_lst"> <a onClick="switcher(3)"> <span class="hp_tit">打开网站</span> <span class="hp_txt">支持导航网站、网页。</span> <span id="icon3" class="ico"></span>
+			<ul class="lst_info">
+				<li>“上搜狐”</li>
+				<li>“打开豆瓣网”</li>
+				<li>“www.baidu.com”</li>
+			</ul>
+			</a> </li>
+		<li id="item4" class="hp_lst"> <a onClick="switcher(4)"> <span class="hp_tit">搜索引擎</span> <span class="hp_txt">支持使用专业搜索引擎搜索信息。</span> <span id="icon4" class="ico"></span>
+			<ul class="lst_info">
+				<li>“搜索世界上最高的山峰”</li>
+				<li>“百度一下黄金价格”</li>
+				<li>“搜索北京到上海的动车”</li>
+			</ul>
+			</a> </li>
+		<li id="item5" class="hp_lst"> <a onClick="switcher(5)"> <span class="hp_tit">天气预报</span> <span class="hp_txt">支持语音查询各地天气预报。</span> <span id="icon5" class="ico"></span>
+			<ul class="lst_info">
+				<li>“北京天气”</li>
+				<li>“明天天气如何”</li>
+				<li>“一周天气预报”</li>
+			</ul>
+			</a> </li>
+		<li id="item6" class="hp_lst"> <a onClick="switcher(6)"> <span class="hp_tit">查看股票</span> <span class="hp_txt">支持语音查询实时股票行情。</span> <span id="icon6" class="ico"></span>
+			<ul class="lst_info">
+				<li>“三一重工的收盘价”</li>
+				<li>“601988股票行情”</li>
+				<li>“中国银行的股票涨了吗”</li>
+			</ul>
+			</a> </li>
+		<li id="item7" class="hp_lst"> <a onClick="switcher(7)"> <span class="hp_tit">北京限行</span> <span class="hp_txt">支持语音查询北京机动车限行方案。</span> <span id="icon7" class="ico"></span>
+			<ul class="lst_info">
+				<li>“北京明天限行信息”</li>
+				<li>“明天哪个尾号限行”</li>
+				<li>“今天哪两个尾号限行”</li>
+			</ul>
+			</a> </li>
+		<li id="item8" class="hp_lst"> <a onClick="switcher(8)"> <span class="hp_tit">彩票信息</span> <span class="hp_txt">支持语音查询彩票开奖结果。</span> <span id="icon8" class="ico"></span>
+			<ul class="lst_info">
+				<li>“今天彩票开奖情况”</li>
+				<li>“3D中奖号码”</li>
+				<li>“江西时时彩开奖情况”</li>
+			</ul>
+			</a> </li>
+		<li id="item9" class="hp_lst"> <a onClick="switcher(9)"> <span class="hp_tit">电视节目</span> <span class="hp_txt">支持语音电视台节目表、电视节目播出时间。</span> <span id="icon8" class="ico"></span>
+			<ul class="lst_info">
+				<li>“中国好声音什么时候播出”</li>
+				<li>“湖南卫视明天有什么节目”</li>
+				<li>“哪个台有电影”</li>
+			</ul>
+			</a> </li>
+		<li id="item10" class="hp_lst"> <a onClick="switcher(10)"> <span class="hp_tit">烹饪美食</span> <span class="hp_txt">支持语音查询菜谱、食材的做法。</span> <span id="icon8" class="ico"></span>
+			<ul class="lst_info">
+				<li>“宫保鸡丁”</li>
+				<li>“可乐鸡翅的做法”</li>
+				<li>“土豆的做法”</li>
+			</ul>
+			</a> </li>
+		<li id="item11" class="hp_lst"> <a onClick="switcher(11)"> <span class="hp_tit">油价资讯</span> <span class="hp_txt">支持语音查询国内各地区油价。</span> <span id="icon8" class="ico"></span>
+			<ul class="lst_info">
+				<li>“北京油价”</li>
+				<li>“今天油价多少”</li>
+				<li>“河北省97号汽油价格”</li>
+			</ul>
+			</a> </li>
+		<li id="item12" class="hp_lst"> <a onClick="switcher(12)"> <span class="hp_tit">图片搜索</span> <span class="hp_txt">支持搜索各种类型的图片，应有尽有。</span> <span id="icon8" class="ico"></span>
+			<ul class="lst_info">
+				<li>“美女图片”</li>
+				<li>“搜索杨幂照片”</li>
+				<li>“蜘蛛侠的海报”</li>
+			</ul>
+			</a> </li>
+		<li id="item13" class="hp_lst"> <a onClick="switcher(13)"> <span class="hp_tit">百科搜索</span> <span class="hp_txt">支持语音查询百科知识。</span> <span id="icon8" class="ico"></span>
+			<ul class="lst_info">
+				<li>“刘德华的百科”</li>
+				<li>“百科一下钓鱼岛”</li>
+				<li>“吴彦祖的资料”</li>
+			</ul>
+			</a> </li>
+		<li id="item14" class="hp_lst"> <a onClick="switcher(14)"> <span class="hp_tit">便捷计算</span> <span class="hp_txt">支持计算器以及科学计算。</span> <span id="icon8" class="ico"></span>
+			<ul class="lst_info">
+				<li>“五加六等于几”</li>
+				<li>“399打七五折是多少”</li>
+				<li>“5的10次方”</li>
+			</ul>
+			</a> </li>
+		<li id="item15" class="hp_lst"> <a onClick="switcher(15)"> <span class="hp_tit">客服电话</span> <span class="hp_txt">支持语音查询重点商户、机构客服电话。</span> <span id="icon8" class="ico"></span>
+			<ul class="lst_info">
+				<li>“淘宝客服电话”</li>
+				<li>“京东的热线电话是多少”</li>
+				<li>“海尔的售后服务电话”</li>
+			</ul>
+			</a> </li>
+		<li id="item16" class="hp_lst"> <a onClick="switcher(16)"> <span class="hp_tit">电话区号</span> <span class="hp_txt">支持语音查询全国各地电话区号。</span> <span id="icon8" class="ico"></span>
+			<ul class="lst_info">
+				<li>“南京的区号”</li>
+				<li>“021是哪的区号”</li>
+				<li>“010是北京的区号么”</li>
+			</ul>
+			</a> </li>
+		<li id="item17" class="hp_lst"> <a onClick="switcher(17)"> <span class="hp_tit">新闻搜索</span> <span class="hp_txt">支持语音查询新闻、热点事件。</span> <span id="icon8" class="ico"></span>
+			<ul class="lst_info">
+				<li>“今天有什么新闻”</li>
+				<li>“体育新闻”</li>
+				<li>“最近热点新闻”</li>
+			</ul>
+			</a> </li>
+		<li id="item18" class="hp_lst"> <a onClick="switcher(18)"> <span class="hp_tit">时间日期</span> <span class="hp_txt">支持语音查询时间、日期、节日放假安排。</span> <span id="icon8" class="ico"></span>
+			<ul class="lst_info">
+				<li>“现在几点了”</li>
+				<li>“今天几号”</li>
+				<li>“明天农历几号”</li>
+				<li>“国庆节放假安排”</li>
+				<li>“中秋节怎么放假”</li>
+			</ul>
+			</a> </li>
+		<li id="item19" class="hp_lst"> <a onClick="switcher(19)"> <span class="hp_tit">视频搜索</span> <span class="hp_txt">支持语音查询电影，电视剧，视频及播放</span> <span id="icon19" class="ico"></span>
+			<ul class="lst_info">
+				<li>“步步惊心”</li>
+				<li>“吴奇隆的视频”</li>
+			</ul>
+			</a> </li>
+		<li id="item20" class="hp_lst"> <a onClick="switcher(20)"> <span class="hp_tit">小说搜索</span> <span class="hp_txt">支持语音查询小说名称，以及小说类别</span> <span id="icon20" class="ico"></span>
+			<ul class="lst_info">
+				<li>“玄幻小说”</li>
+				<li>“斗破苍穹”</li>
+			</ul>
+			</a> </li>
+	</ul>
+	<div class="dlyy"><a href="http://www.yuxiaoxi.com/"><span class="ico"></span>麦田一根葱，最靠谱的一根葱</a></div>
+	<script type="text/javascript">
+	function switcher(cnt){
+		for( var i = 1 ; i <= 20 ; i++ ){
+			if( i == cnt ){				
+				$("#item" + i).toggleClass("on");
+				if($("#item" + i).hasClass("on")) {
+					$("#icon" + i).removeClass("ico");
+					$("#icon" + i).addClass("ico2");
+				} else {
+					$("#icon" + i).addClass("ico");
+					$("#icon" + i).removeClass("ico2");
+				}
+			} else {
+				$("#item" + i).removeClass("on");
+				$("#icon" + i).removeClass("ico2");
+				$("#icon" + i).addClass("ico");
+			}
+		}
+	}
+</script> 
+</div>
+</body>
+</html>
