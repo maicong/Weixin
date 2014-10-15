@@ -1,0 +1,38 @@
+@charset'UTF-8';
+
+/**
+ * 
+ * @authors MaiCong (sb@yxx.me)
+ * @date    2014-06-05 09:09:10
+ * @version 1.1
+ */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+table { border-spacing: 0; border-collapse: collapse; }
+fieldset, img { border: 0; }
+address, caption, cite, code, dfn, th, var { font-weight: normal; font-style: normal; }
+ol, ul { margin: 0; padding: 0; list-style: none outside none; }
+caption, th { text-align: left; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+a { text-decoration: none; color: #000; }
+abbr, acronym { font-variant: normal; border: 0; }
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+input, textarea, select { *font-size: 100%; }
+legend { color: #000; }
+q:before, q:after { content:''; }
+body { font-family:'Helvetica Neue', 'Microsoft YaHei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', Helvetica, Arial, Sans-serif; font-size: 14px; line-height: 1.428571429; height: 100%; color: #333; background-color: #f0f0f0; }
+.left { float: left; }
+.right { float: right; }
+.page { overflow-x: hidden; max-width: 640px; margin: 0 auto; padding: 15px; }
+.page-title { font-size: 20px; font-weight: bold; word-wrap: break-word; word-break: normal; color: #555; }
+.page-link { position: relative; display: block; height: 42px; margin: 10px 0; padding: 12px 12px 12px 70px; background: url(http://t2.qpic.cn/mblogpic/426c637092f06ffde172/2000) no-repeat center center; background-size: 100% 100%; }
+.page-link .logo { position: absolute; top: 6px; left: 5px; overflow: hidden; width: 42px; height: 42px; padding: 6px; }
+.page-link .logo img { position: relative; z-index: 10; overflow: hidden; width: 42px; height: 42px; border-radius: 15px; }
+.page-link .logo .circle { position: absolute; z-index: 100; top: 0; left: 0; width: 54px; height: 54px; background: url(http://t2.qpic.cn/mblogpic/9d348430a143c680b1e4/2000) no-repeat center center; background-size: 100% 100%; }
+.page-link .nickname { font-size: 15px; color: #555; text-shadow: 0 1px 1px #fff; }
+.page-link .weixinid { font-size: 12px; line-height: 20px; color: #a3a3a3; text-shadow: 0 1px 1px #fff; }
+.page-content { width: 100%; padding: 15px; word-wrap: break-word; word-break: break-all; }
+.page-content img { max-width: 100%; height: auto; }
+.page-content p { line-height: 24px; margin: 10px 0; }
+.page-follow { margin: 10px; text-align: center; color: #888; }
